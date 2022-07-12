@@ -1,0 +1,877 @@
+*{
+    padding: 0%;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(218, 28%, 13%);
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    margin: 0;
+    
+}
+
+nav{
+   width: 100%;
+   height: 70px;
+   line-height: 70px;
+}
+.logo{
+    width: 15%;
+    margin-left: 10%;
+    height: 70px;
+    display: inline-block;
+}
+nav ul {
+    width: 30%;
+    height: 70px;
+    line-height: 70px;
+    margin-left: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+nav ul li {
+    display: inline-block;
+    margin-left: 10%;
+
+}
+nav ul li a{
+    display: block;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    border-radius: 3px;
+}
+
+main{
+    background-color: hsl(218, 28%, 13%);
+}
+section.intro{
+    width: 100%;
+    height: 400px;
+
+}
+.file-image{
+    width: 80%;
+    height: 200px;
+    margin-top: 15px;
+    margin-right: 10%;
+    margin-left: 10%;
+    background-image: url(images/illustration-intro.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.intro article{
+    width: 60%;
+    height: 150px;
+    margin:10px 20%;
+    text-align: center;
+}
+.intro article h1{
+    font-size: 35px;
+    font-weight: bold;
+}
+.btn{
+    background-color: hsl(176, 68%, 64%);
+    border: none;
+    border-radius: 30px;
+    width: 50%;
+    height: 50px;
+    margin-left: 25%;
+    margin-top: 10px ;
+    margin-right: 25%;
+
+}
+.btn a{
+    text-transform: capitalize;
+    font-size: 17px;
+    font-weight: 300;
+    color: white;
+}
+.explain{
+    max-width: 100%;
+    width: 90%;
+    height: 650px;
+    margin-top: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.main-1{
+    width: 100%;
+    height: 300px;
+    display: inline-block
+}
+
+.left-pane{
+    display: inline-block;
+    width: 40%;
+    height: 300px;
+    margin-left: 5%;
+    vertical-align: top;
+    padding-top: 25px;
+    align-items: center;
+    text-align: center;
+}
+.right-pane{
+    display: inline-block;
+    width: 40%;
+    height: 300px;
+    margin-left: 10%;
+    padding-top: 25px;
+    align-items: center;
+    text-align: center;
+
+}
+.main-2{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+    
+}
+.bottomleft-pane{
+    width: 40%;
+    height: 300px;
+    margin-left: 5%;
+    align-items: center;
+    text-align: center;
+}
+.bottomright-pane{
+    width: 40%;
+    height: 300px;
+    margin-right: 5%;
+    align-items: center;
+    text-align: center;
+}
+h5{
+    padding-top: 10px;
+    font-size: 16px;
+    color: white;
+}
+p{
+    font-size: 14px;
+    color: white;
+}
+
+section.sec-2{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.comment-image{
+    width: 40%;
+    height: 300px;
+    margin-left: 3%;
+    
+}
+.arti-comment{
+    width: 50%;
+    height: 300px;
+    margin-right: 5%;
+    margin-left: 2%;
+    padding-top: 15px;
+    padding-left: 0%;
+    padding-bottom: 15px;
+}
+a.underline{
+    text-decoration: underline;
+    color: hsl(176, 68%, 64%);
+    cursor: pointer;
+    margin-top: 25px;
+}
+.sec-3{
+    height: 30px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.productivity{
+    width: 94%;
+    height: 250px;
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-bottom: 30px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.no-1{
+    height: 225px;
+    width: 30%;
+    padding-top: 7px;
+    padding-left: 2%;
+    border: 2px solid transparent;
+    background-color: hsl(219, 30%, 18%);
+
+}
+.no-1 p{
+    height: 145px;
+}
+.imagebox{
+    height: 70px;
+    width: 100%;
+    display: inline-block;
+}
+.profile{
+    width: 90px;
+    height: 70px;
+    border-radius: 35px;
+    display: inline-block;
+    padding-left: 12px;
+}
+.imagebox article{
+    height: 50px;
+    width: 50%;
+    display: inline-block;
+    font-size: bold;
+    padding-left: 5%;
+    vertical-align: top;
+}
+.get-section{
+    position: relative;
+    width: 100%;
+    height: 250px;
+}
+.get{
+    position: absolute;
+    top: 100px;
+    background-color: hsl(217, 28%, 15%);
+    border: 2px solid transparent;
+    width: 60%;
+    height: 250px;
+    left: 20%;
+   /*  transform: translateY(-30%)*/
+    text-align: center;
+    padding: 20px 2%;
+
+}
+.starting{
+    width: 96%;
+    margin-top: 30px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.form{
+    height: 40px;
+    width: 60%;
+
+}
+#email{
+ color: black;
+ width: 100%;
+ height: 40px;
+ border-radius: 25px;
+ border: none;
+}
+label{
+    color: red;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.start{
+    width: 35%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: hsl(176, 68%, 64%);
+    padding: 10px 5px;
+}
+.start a{
+    color: white;
+    font-size: 16px;
+}
+footer{
+    width: 100%;
+    padding-top: 100px;
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: hsl(216, 53%, 9%);
+}
+.foot-2{
+    height: 200px;
+    padding: 25px 0;
+}
+.foot-logo{
+    height: 50px;
+    width: 40%;
+}
+.foot-location{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.foot-location img{
+    width: 15%;
+    height: 30px;
+    padding-right: 5px;
+
+}
+.foot-location p{
+    font-size: 12px;
+}
+.contact, .about{
+    text-align: center;
+    line-height: 50px;
+}
+.footer-logo{
+    padding-top: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.icon{
+    color: white;
+    height: 30px;
+    width: 30px;
+    border: 20x solid white;
+    border-radius: 15px;
+}
+.phone-pic{
+    display: block;
+    align-items: center;
+    line-height: 60px;
+}
+@media screen and (max-width: 764px) {
+      nav{
+        max-width: 764px;
+        width: 100%;
+        height: 70px;
+        line-height: 70px;
+    }
+    .logo{
+       width: 15%;
+       height: 70px;
+       margin-left: 5%;
+       display: inline-block;
+    }
+    nav ul {
+        width: 40%;
+        display: inline-block;
+        margin-right: 5%;
+        margin-left: 20%;
+    }
+    nav ul li {
+        display: inline-block;
+        margin: 0 5%;
+        line-height: 70px;
+     
+    }
+    .intro article h1{
+        font-size: 35px;
+        font-weight: bold;
+    }
+    .btn{
+        background-color: hsl(176, 68%, 64%);
+        border: none;
+        border-radius: 30px;
+        width: 50%;
+        height: 50px;
+        margin-left: 25%;
+        margin-top: 25px ;
+        margin-right: 25%;
+    }
+    .explain{
+        max-width: 100%;
+        width: 90%;
+        height: 1200px;
+        margin-top: 100px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .main-1{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .left-pane{
+        width: 100%;
+        height: 300px;
+        margin-left: 5%;
+        padding-top: 25px;
+        align-items: center;
+        text-align: center;
+    }
+    .right-pane{
+        width: 100%;
+        height: 300px;
+        margin-left: 10%;
+        padding-top: 25px;
+        align-items: center;
+        text-align: center;
+    
+    }
+    .main-2{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-top: 5px;
+        
+    }
+    .main-2 h5{
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    .main-1 h5{
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 5px;
+        margin-top: 5px; 
+    }
+    .bottomleft-pane{
+        width: 100%;
+        height: 300px;
+        margin-left: 5%;
+        align-items: center;
+        text-align: center;
+    }
+    .bottomright-pane{
+        width: 100%;
+        height: 300px;
+        margin-right: 5%;
+        align-items: center;
+        text-align: center;
+    }
+    h5{
+        padding-top: 10px;
+        font-size: 16px;
+        color: white;
+    }
+    p{
+        font-size: 14px;
+        color: white;
+    }
+    section.sec-2{
+        width: 100%;
+        height: 500px;
+        display: block;
+        margin-bottom: 50px;
+    }
+    .comment-image{
+        width: 80%;
+        height: 300px;
+        margin: 0 10%;
+        align-items: center;
+        
+    }
+    .arti-comment{
+        width: 85%;
+        height: 300px;
+        margin-right: 5%;
+        margin-left: 10%;
+        padding-top: 20px;
+        line-height: 20px;
+    }
+    .arti-comment p{
+        font-size: 16px;
+        font-weight: 300;
+        padding-left: 0;
+        padding-top: 20px;
+    }
+    .arti-comment h2{
+        font-weight: 700;
+        font-size: 35px;
+        padding-left: 0%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        letter-spacing: 2px;
+    }
+    a.underline{
+        text-decoration: underline;
+        color: hsl(176, 68%, 64%);
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 400;
+        margin-top: 30px;
+    }
+    .productivity{
+        width: 80%;
+        height: 700px;
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-bottom: 30px;
+        padding-top: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .no-1{
+        height: 225px;
+        width: 100%;
+        padding-top: 7px;
+        padding-left: 2%;
+        margin-bottom: 25px;
+        border: 2px solid transparent;
+        background-color: hsl(219, 30%, 18%);
+    
+    }
+    .no-1 p{
+        height: 145px;
+        font-size: 25px;
+        font-weight: 300;
+    }
+    .imagebox{
+        height: 70px;
+        width: 100%;
+        display: inline-block;
+    }
+    .profile{
+        width: 100px;
+        height: 70px;
+        border-radius: 40px;
+        display: inline-block;
+        padding-left: 2%;
+    }
+    .imagebox article{
+        height: 50px;
+        width: 50%;
+        display: inline-block;
+        font-size: 16px;
+        padding-left: 5%;
+        vertical-align: top;
+    }
+    .get-section{
+        position: relative;
+        width: 100%;
+        height: 250px;
+    }
+    .get{
+        position: absolute;
+        top: 100px;
+        background-color: hsl(217, 28%, 15%);
+        border: 2px solid transparent;
+        width: 80%;
+        height: 300px;
+        left: 10%;
+       /*  transform: translateY(-30%)*/
+        text-align: center;
+        padding: 20px 2%;
+    
+    }
+    
+    .starting{
+        width: 96%;
+        margin-top: 30px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .form{
+        height: 40px;
+        width: 100%;
+        margin-bottom: 10px;
+    
+    }
+    #email{
+     color: black;
+     width: 100%;
+     height: 40px;
+     border-radius: 25px;
+     border: none;
+    }
+    label{
+        color: red;
+        font-size: 12px;
+        letter-spacing: 2px;
+    }
+    
+    .start{
+        width: 100%;
+        height: 40px;
+        border-radius: 20px;
+        background-color: hsl(176, 68%, 64%);
+        padding: 10px 5px;
+    }
+    footer{
+        width: 100%;
+        height: 955px;
+        padding-top: 200px;
+        padding-bottom: 50px;
+        display: block;
+        flex-direction: column;
+        background-color: hsl(216, 53%, 9%);
+    }
+    .foot-2{
+        width: 100%;
+        height: 200px;
+        display: block;
+    }
+    .foot-logo{
+        height: 80px;
+        width: 50%;
+        margin-left: 20%;
+    }
+    .foot-location{
+        width: 60%;
+        display: inline-block;
+        margin-left: 10%;
+
+    }
+    .foot-location img{
+        width: 10%;
+        height: 50px;
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 5%;
+    
+    }
+    .foot-location p{
+        width: 45%;
+        font-size: 12px;
+        display: inline-block;
+    }
+    .contact, .about{
+        text-align: left;
+        line-height: 50px;
+        padding-left: 10%;
+    }
+    .footer-logo{
+        width: 40%;
+        padding-top: 20px;
+        margin-left: 30%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .icon{
+        color: white;
+        height: 30px;
+        width: 30px;
+        border: 20x solid white;
+        border-radius: 15px;
+    }
+    .phone-pic{
+        display: block;
+        padding-left: 10%;
+        line-height: 60px;
+    }
+    .phone-pic ul li img span{
+        margin-left: 5%;
+    }
+      
+}
+@media screen and (max-width: 375px){
+
+   nav{
+       width: 100%;
+       height: 50px;
+       line-height: 50px;
+       display: flex;
+       align-items: center;
+       justify-content: space space-between;
+    }
+  .logo{
+      width: 30%;
+      height: 50px;
+    }
+   nav ul {
+       width: 60%;
+       height: 50px;
+       line-height: 50px;
+       display: flex;
+       align-items: center;
+       justify-content: space-evenly;
+    }
+    nav ul li a{
+       display: block;
+        color: white;
+        font-size: 14px;
+        font-weight: 300;
+        text-transform: capitalize;
+        border-radius: 3px;
+    }
+    section.intro{
+        width: 100%;
+        height: 400px;
+    
+    }
+    .file-image{
+        width: 80%;
+        height: 200px;
+        margin-top: 15px;
+        margin-right: 10%;
+        margin-left: 10%;
+        background-image: url(images/illustration-intro.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+    .intro article{
+        width: 60%;
+        height: 150px;
+        margin:10px 20%;
+        text-align: center;
+    }
+    .intro article h1{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .btn{
+        background-color: hsl(176, 68%, 64%);
+        border: none;
+        border-radius: 30px;
+        width: 50%;
+        height: 40px;
+        margin-left: 25%;
+        margin-top: 10px ;
+        margin-right: 25%;
+    
+    }
+    .btn a{
+        text-transform: capitalize;
+        font-size: 14px;
+        font-weight: 300;
+        color: white;
+    }
+    section.sec-2{
+        width: 100%;
+        height: 500px;
+        display: block;
+        margin-bottom: 50px;
+    }
+    .comment-image{
+        width: 80%;
+        height: 300px;
+        margin: 0 10%;
+        align-items: center;
+        
+    }
+    .arti-comment{
+        width: 85%;
+        height: 300px;
+        margin-right: 5%;
+        margin-left: 10%;
+        padding-top: 20px;
+        line-height: 20px;
+    }
+    .arti-comment p{
+        font-size: 14px;
+        font-weight: 300;
+        padding-left: 0;
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+    .arti-comment h2{
+        font-weight: bold;
+        font-size: 16px;
+        padding-left: 0%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .no-1{
+        height: 210px;
+        width: 100%;
+        padding-top: 7px;
+        padding-left: 2%;
+        margin-bottom: 25px;
+        border: 2px solid transparent;
+        background-color: hsl(219, 30%, 18%);
+    
+    }
+    .no-1 p{
+        height: 110px;
+        font-size: 16px;
+        font-weight: 300;
+        padding-top: 25px;
+    }
+    .imagebox{
+        height: 70px;
+        width: 100%;
+        display: inline-block;
+    }
+    .profile{
+        width: 70px;
+        height: 60px;
+        border-radius: 40px;
+        display: inline-block;
+        padding-left: 2%;
+    }
+    .imagebox article{
+        height: 40px;
+        width: 50%;
+        display: inline-block;
+        font-size: 14px;
+        padding-left: 5%;
+        vertical-align: top;
+    }
+
+    footer{
+        width: 100%;
+        height: 955px;
+        padding-top: 200px;
+        padding-bottom: 50px;
+        display: block;
+        flex-direction: column;
+        background-color: hsl(216, 53%, 9%);
+    }
+    .foot-2{
+        width: 100%;
+        height: 230px;
+        display: block;
+    }
+    .foot-logo{
+        height: 80px;
+        width: 50%;
+        margin-left: 20%;
+    }
+    .foot-location{
+        width: 60%;
+        display: inline-block;
+        margin-left: 10%;
+
+    }
+    .foot-location img{
+        width: 10%;
+        height: 40px;
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 5%;
+    
+    }
+    .foot-location p{
+        width: 50%;
+        font-size: 10px;
+        display: inline-block;
+    }
+    .phone-pic{
+        display: block;
+        align-items: center;
+        line-height: 60px;
+    }
+    .get-section{
+        position: relative;
+        width: 100%;
+        height: 200px;
+    }
+    .form{
+        height: 25px;
+        width: 100%;
+        margin-bottom: 10px;
+    
+    }
+    .start{
+        width: 100%;
+        height: 25px;
+        border-radius: 20px;
+        background-color: hsl(176, 68%, 64%);
+        padding: 10px 5px;
+    }
+
+    
+}
